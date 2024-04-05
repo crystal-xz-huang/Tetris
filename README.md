@@ -15,14 +15,14 @@ To get a feel for this game, try it out in a terminal!
 
 ## Commands
 
-r - Rotate the current piece clockwise	
-R - Rotate the current piece counter-clockwise	
-n - Remove the current piece and add a new one at the top of the field	
-s - Move the current piece down one row.	
-S - Drop the current piece to the bottom of the field	
-a - Move the current piece to the left by one column	
-d - Move the current piece to the right by one column	
-p - Place the current piece into the field	
-c - Allow the player to choose which piece will drop next	
-? - Output the current state of the game	
-q - Quit the game	
+`r` - Rotate the current piece clockwise	
+`R` - Rotate the current piece counter-clockwise	
+`n` - Remove the current piece and add a new one at the top of the field	
+`s` - Move the current piece down one row.	
+`S` - Drop the current piece to the bottom of the field	
+`a` - Move the current piece to the left by one column	
+`d` - Move the current piece to the right by one column	
+`p` - Place the current piece into the field	
+`c` - Allow the player to choose which piece will drop next	
+`?` - Output the current state of the game	
+`q` - Quit the game	
