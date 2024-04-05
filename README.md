@@ -11,11 +11,7 @@ Once a piece hits the bottom, another piece will appear at the top of the field.
 
 Any horizontal lines in the field that become completely filled will be cleared, and points will be awarded to the player's score based on how many lines are cleared at the same time.
 
-To get a feel for this game, try it out in a terminal:
-
-`dcc tetris.c -o tetris
-./tetris`
-
+To get a feel for this game, try it out in a terminal!
 
 ## Commands
 
