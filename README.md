@@ -1,7 +1,8 @@
 # Tetris
-A basic implementation of [Tetris](https://tetris.com/play-tetris) in C
+This project is a basic implementation of [Tetris](https://tetris.com/play-tetris) in C.
 
-## Introduction
+
+## Overview
 
 This simple game of _Tetris_ takes place on a 2D field, where players must fit together descending shapes to make lines.
 
@@ -10,8 +11,6 @@ You can move a piece left (a) and right (d), drop it down (one step with s or al
 Once a piece hits the bottom, another piece will appear at the top of the field.
 
 Any horizontal lines in the field that become completely filled will be cleared, and points will be awarded to the player's score based on how many lines are cleared at the same time.
-
-To get a feel for this game, try it out in a terminal!
 
 ## Commands
 
@@ -26,3 +25,18 @@ To get a feel for this game, try it out in a terminal!
 - `c` - Allow the player to choose which piece will drop next	
 - `?` - Output the current state of the game	
 - `q` - Quit the game	
+
+## Getting Started
+To get a feel for this game, try it out in a terminal!
+
+### Compilation
+To compile the game, run the following command:
+```
+dcc -o tetris tetris.c
+```
+
+### Running the Game
+To run the game, execute the compiled program:
+```
+./tetris
+```
